@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "* [Download PDF](https://github.com/senthil1989/resume/raw/master/resume.pdf) * [senthil.tony@gmail.com](senthil.tony@gmail.com) * [github.com/senthil1989](https://github.com/senthil1989 * [linkedin.com/in/senthil-kumar-b7493a29](https://linkedin.com/in/senthil-kumar-b7493a29)",
+  "main": "index.js",
+  "scripts": {
+    "pdf": "node ./scripts/generatePDF.js",
+    "start": "serve",
+    "test": "node ./scripts/compare.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senthil1989/resume.git"
+  },
+  "keywords": [],
+  "author": "Senthilkumar <senthil.tony@gmail.com> (https://github.com/senthil1989)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senthil1989/resume/issues"
+  },
+  "homepage": "https://github.com/senthil1989/resume#readme",
+  "devDependencies": {
+    "imagemagick": "^0.1.3",
+    "puppeteer": "^1.12.2",
+    "rimraf": "^2.6.3",
+    "serve": "^10.1.2",
+    "serve-handler": "^5.0.8"
+  }
+}
